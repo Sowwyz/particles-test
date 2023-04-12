@@ -1,0 +1,143 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    margin: 0
+}
+
+code {
+    font-family: source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace
+}
+
+.App {
+    text-align: center
+}
+
+.App-logo {
+    height: 15vmin;
+    position: absolute;
+    top: 0
+}
+
+@media (prefers-reduced-motion:no-preference) {
+    .App-logo {
+        -webkit-animation: App-opacity 2s linear;
+        animation: App-opacity 2s linear
+    }
+}
+
+.App-header {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    justify-content: center;
+    min-height: 100vh
+}
+
+@media (prefers-reduced-motion:no-preference) {
+    .App-Carousel {
+        -webkit-animation: App-opacity 2s linear;
+        animation: App-opacity 2s linear;
+        background-color: rgba(44,44,44,.719);
+        bottom: 10px;
+        top: 50px
+    }
+
+    .Grid-image {
+        -webkit-animation: app-flip 1s linear;
+        animation: app-flip 1s linear;
+        box-shadow: 5px 5px #5a5a5a
+    }
+}
+/*Sowwyz#1337*/
+.App-footer {
+    background-color: #4e4e4e;
+    color: #fff
+}
+
+.App-link {
+    color: #61dafb
+}
+
+.space {
+    padding-bottom: calc(20px + 2vmin)
+}
+
+.space, .space2 {
+    background-color: #000;
+    padding-top: 10px
+}
+
+.space2 {
+    padding-bottom: calc(100px + 2vmin)
+}
+
+@-webkit-keyframes App-opacity {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+/*Sowwyz#1337*/
+@keyframes App-opacity {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes app-flip {
+    0% {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg)
+    }
+
+    to {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg)
+    }
+}
+
+@keyframes app-flip {
+    0% {
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg)
+    }
+
+    to {
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg)
+    }
+}
+
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
+/*Sowwyz#1337*/
